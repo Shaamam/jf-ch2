@@ -64,10 +64,10 @@ security.jwt.type=firebase
 
 # Firebase Admin SDK Configuration
 # Set your Firebase project ID here
-firebase.project-id=javafest-b9e68
-
-# Firebase service account key (JSON as string)
-firebase.service-account-key={"type":"service_account","project_id":"your-project-id"...}
+# Firebase Admin SDK Configuration
+firebase.project-id=${FIREBASE_PROJECT_ID}
+firebase.apiKey=${FIREBASE_API_KEY}
+firebase.service-account-key=${FIREBASE_SERVICE_ACCOUNT_KEY}
 ```
 
 **Important**: Replace the `firebase.service-account-key` with your actual Firebase Admin SDK JSON key as a single-line string.
