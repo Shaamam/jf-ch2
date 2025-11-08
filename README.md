@@ -32,6 +32,8 @@ This chapter extends Chapter 1 by adding Firebase authentication to make todos u
 ### Test Authentication
 Use [https://firebasejwt.muthuishere.site/](https://firebasejwt.muthuishere.site/) to test authentication and get JWT tokens based on your project settings.
 
+refer https://gist.github.com/Shaamam/5d9e81749996149451a0211e48025e7c for a test service account and env stuff
+
 ## Step 2: Update Dependencies
 
 Add security and Firebase dependencies to `build.gradle`:
