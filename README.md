@@ -34,6 +34,8 @@ Use [https://firebasejwt.muthuishere.site/](https://firebasejwt.muthuishere.site
 
 refer https://gist.github.com/Shaamam/5d9e81749996149451a0211e48025e7c for a test service account and env stuff
 
+create a .env file with the following content from the https://gist.github.com/Shaamam/5d9e81749996149451a0211e48025e7c
+
 ## Step 2: Update Dependencies
 
 Add security and Firebase dependencies to `build.gradle`:
